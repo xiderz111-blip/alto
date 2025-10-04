@@ -330,7 +330,9 @@ export const mockProjects = [
     type: 'dashboard',
     framework: 'React',
     features: ['Analytics', 'Sales Charts', 'User Management'],
-    createdAt: '2024-01-15T10:30:00Z'
+    createdAt: '2024-01-15T10:30:00Z',
+    files: generateMockFiles('dashboard'),
+    preview: generateMockPreview('dashboard')
   },
   {
     id: 'demo-2',
@@ -338,7 +340,9 @@ export const mockProjects = [
     type: 'blog',
     framework: 'React',
     features: ['Content Management', 'Comments', 'SEO'],
-    createdAt: '2024-01-14T15:45:00Z'
+    createdAt: '2024-01-14T15:45:00Z',
+    files: generateMockFiles('blog'),
+    preview: generateMockPreview('blog')
   },
   {
     id: 'demo-3',
@@ -346,6 +350,8 @@ export const mockProjects = [
     type: 'productivity',
     framework: 'React',
     features: ['Task Tracking', 'Categories', 'Due Dates'],
-    createdAt: '2024-01-13T09:20:00Z'
+    createdAt: '2024-01-13T09:20:00Z',
+    files: generateMockFiles('productivity'),
+    preview: generateMockPreview('productivity')
   }
 ];
