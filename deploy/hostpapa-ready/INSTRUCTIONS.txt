@@ -1,0 +1,54 @@
+🚀 INSTRUCTIONS DE DÉPLOIEMENT ALT0 SUR HOSTPAPA
+
+📁 CONTENU DE CE DOSSIER :
+- index.html          : Page principale de votre application Alt0
+- static/              : Dossier avec CSS et JavaScript optimisés
+- .htaccess           : Configuration Apache (TRÈS IMPORTANT!)
+- asset-manifest.json : Manifeste des ressources
+- INSTRUCTIONS.txt    : Ce fichier
+
+📤 ÉTAPES D'INSTALLATION :
+
+1. CONNECTEZ-VOUS À CPANEL HOSTPAPA
+   - Allez sur https://cpanel.hostpapa.com
+   - Connectez-vous avec vos identifiants
+
+2. OUVREZ FILE MANAGER
+   - Cliquez sur "File Manager" dans cPanel
+   - Naviguez vers le dossier "public_html"
+
+3. NETTOYEZ LE DOSSIER
+   - Supprimez tous les fichiers existants dans public_html
+   - (Sauvegardez d'abord si vous avez des fichiers importants)
+
+4. UPLOADEZ LES FICHIERS
+   - Sélectionnez TOUS les fichiers de ce dossier
+   - Glissez-déposez dans public_html
+   - OU utilisez le bouton "Upload" de cPanel
+
+5. VÉRIFIEZ LES PERMISSIONS
+   - Fichiers : 644
+   - Dossiers : 755
+   - (normalement configuré automatiquement)
+
+🌐 VOTRE SITE SERA DISPONIBLE SUR :
+https://votredomaine.com
+
+✅ FONCTIONNALITÉS INCLUSES :
+- Interface moderne type Bolt.new
+- Génération de projets IA (mockée)
+- Éditeur de code complet
+- Prévisualisation responsive
+- Navigation fluide
+- Optimisations de performance
+
+🚨 IMPORTANT :
+- Le fichier .htaccess est ESSENTIEL pour le bon fonctionnement
+- Ne modifiez pas la structure des dossiers
+- Tous les data sont mockées (version demo)
+
+📞 SUPPORT :
+- Documentation : voir GUIDE-HOSTPAPA-CPANEL.md
+- Support HostPapa : https://hostpapa.com/contact/
+
+🎉 Votre clone Alt0 de Bolt.new est prêt !
